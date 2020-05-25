@@ -1,0 +1,67 @@
+* {
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #4a807d;
+    color: #fff4bf;
+  }
+
+#header
+{
+    font-style: oblique;
+    font-size: xx-large;
+    display:inline-block;
+    
+}
+#h
+{
+  font-style:bold,oblique;
+  text-decoration: transparent;
+}
+#features
+{
+  font-size: 12px;
+  font-style:bold;
+  text-decoration: transparent;
+
+}
+#diceRoller
+{
+  height: 120px;
+  width: 120px;
+  padding:50px;
+  margin:50px auto;
+  border:2px solid #fff4bf;
+  border-radius: 20px;
+  font-size: 22px;
+  display: inline-block;
+  transform:translate(0,10.5%);
+}
+
+#SpellBook
+{
+ height: 120px;
+  width: 120px;
+  padding:50px;
+  margin:50px auto;
+  border:2px solid #fff4bf;
+  border-radius: 20px;
+  font-size: 22px;
+  display: inline-block; 
+
+}
+#inventory
+{
+  height: 120px;
+  width: 120px;
+  padding:50px;
+  margin:50px auto;
+  border:2px solid #fff4bf;
+  border-radius: 20px;
+  font-size: 22px;
+  display: inline-block;
+  transform:translate(0,10.5%);
+}
+
+#indexlabels{display:none;}
