@@ -1,7 +1,9 @@
-##Background
+## Background
+
 Tabletop RPG’s are a very popular pastime, and it involves a large amount of paper, pens, dice, memory and writing. I know from personal experience of both playing and running games like this, that  most players are rather atrocious at remembering to bring such essentials with them; myself included. Because of this, I wanted to create a site that acted as some of those tools that a player or games master could not misplace or forget. Hence why the site is called RPG tool kit. 
 
-##Evaluation
+## Evaluation
+
 The problem I sought to solve had more faucets than I initially assumed. The first problems that came to mind were those that I successfully addressed to a degree; the dice roller being the first I chose to tackle.
 Dice play a key role in any table top game, and there are several kinds; especially regarding dungeons and dragons. I would have liked to implement a way to add multiple rolls, or allow the user to add their own modifiers, but I already ran into issues getting the ‘roll’ function to parse the selected dice. Overall, I think the dice roller was a moderate success; it picks a random number as a dice does and has all the options available for most games played.
 Another integral part of tabletop games that most players struggle with, or at least, I struggle with; is keeping track of spells or inventory. The reason I am addressing these at the same time, is the JavaScript used for both pages is effectively identical. This is because at the end of the day, they are effectively both just lists, populated by a user. 
@@ -14,10 +16,16 @@ The design I decided upon was as simple as possible, whilst being easy to read a
 with the application of the site in mind, there was not a lot of need for any changes to comply with W3C accessibility standards, or with the GDPR. I did, however, pick high contrast colours. I did not want to opt for black and white, or the typically more garish pairings. I chose a dark teal-like colour, and a more pastel yellow. They are contrasting, but not entirely offensive to the eye at the same time. All the font is large, clear and plain, and the names of each component clear and concise. I labelled all elements of my pages, although, some failed to be recognised in testing. To test whether my site conforms to W3C standards, I used the accessibility tool in the inspector for chrome/ Firefox. With this, I was able to check whether the contrast and size of my text met standards, which they do, between AA and AAA. I also checked whether all elements were sufficiently labelled, which most are, apart from some form elements.
 the main issues I had with accessibility though, were with making all the pages responsive. The dice roller and index went as planned, but the spell book and inventory were often oversized on most devices. The table is wider than it is long, and the entirety fits on a landscape display. 
 
-##distance selling
-my page sells nothing and requires no rights or any form of user information (barring what fictional items and spells your fictional character may have acquired).
+## distance selling
 
-#wireframes
+my page sells nothing and requires no rights or any form of user information.
+
+
+
+
+
+## wireframes
+
 ![index desktop](/assets/desktop_index.png)
 ![index mobile](/assets/mobile_index.png)
 ![dice roller desktop](/assets/desktop_dice.png)
